@@ -28,10 +28,11 @@ span {
   border-color: #b4fff4;
 }
 
-.rocket:hover
-.rocket:active
-.rocket:focus {
-  transform-origin: top;
-  transform: skewX(0);
-  transform: skewY(2);
+.icon,
+.btn {
+transition: all 250ms ease;
+}
+
+.icon:hover {
+transform: translate(0, -.25em);
 }
