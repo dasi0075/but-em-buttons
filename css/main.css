@@ -10,3 +10,12 @@ html {
 span {
   color: #b4fff4;
 }
+
+.btn {
+  border-radius: 8px;
+  border-color: #b4fff4;
+}
+
+.btn:hover {
+
+}
