@@ -14,12 +14,13 @@ html {
 }
 
 span {
-  color: #b4fff4;
+  color: #90ccc3;
 }
 
 .btn {
   border-radius: 8px;
   border-color: #b4fff4;
+  padding: .8em;
 }
 
 .btn:hover {
@@ -27,16 +28,10 @@ span {
   border-color: #b4fff4;
 }
 
-.btn:hover {
-
-  @keyframes rocket {
-
-    from {
-      transform: translateX(0);
-    }
-
-    to {
-      transform: translateX(2);
-    }
-  }
+.rocket:hover
+.rocket:active
+.rocket:focus {
+  transform-origin: top;
+  transform: skewX(0);
+  transform: skewY(2);
 }
