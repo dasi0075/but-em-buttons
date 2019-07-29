@@ -5,6 +5,7 @@ html {
 
 .banner {
   background-image: url("../images/starfield.png");
+  text-shadow: 1px 1px 30px rgba(255, 255, 255, .7);
 }
 
 span {
