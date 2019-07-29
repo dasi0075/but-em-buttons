@@ -33,7 +33,8 @@ span {
   transition: all 250ms ease;
 }
 
-.icon:hover {
+.icon:hover
+.icon:active {
   transform: translate(0, -.25em);
 }
 
@@ -41,7 +42,6 @@ span {
   transition: all 250ms ease;
 }
 
-.btn:active
 .btn:focus {
   top: 1em;
   transform: translate(0, .25em);
