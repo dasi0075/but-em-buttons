@@ -1,5 +1,5 @@
 html {
-  font-family: "Ubuntu-Condensed", sans-serif;
+  font-family: 'Ubuntu-Condensed', sans-serif;
   color: #fff;
 }
 
@@ -35,4 +35,13 @@ transition: all 250ms ease;
 
 .icon:hover {
 transform: translate(0, -.25em);
+}
+
+.btn-ghost {
+transition: all 250ms ease;
+}
+
+.btn:active {
+top: 1em;
+transform: translate(0, .25em);
 }
