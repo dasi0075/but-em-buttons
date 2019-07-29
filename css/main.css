@@ -9,7 +9,7 @@ html {
 
 .banner-content {
   position: absolute;
-  top: 10em;
+  top: 12em;
   text-shadow: 1px 1px 30px rgba(255, 255, 255, .7);
 }
 
@@ -25,4 +25,18 @@ span {
 .btn:hover {
   background-color: rgba(180, 255, 244, .2);
   border-color: #b4fff4;
+}
+
+.btn:hover {
+
+  @keyframes rocket {
+
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(2);
+    }
+  }
 }
