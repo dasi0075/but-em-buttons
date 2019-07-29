@@ -1,5 +1,5 @@
 html {
-  font-family: 'Ubuntu-Condensed', sans-serif;
+  font-family: "Ubuntu-Condensed", sans-serif;
   color: #fff;
 }
 
@@ -30,19 +30,19 @@ span {
 
 .icon,
 .btn {
-transition: all 250ms ease;
+  transition: all 250ms ease;
 }
 
 .icon:hover {
-transform: translate(0, -.25em);
+  transform: translate(0, -.25em);
 }
 
 .btn-ghost {
-transition: all 250ms ease;
+  transition: all 250ms ease;
 }
 
 .btn:active
 .btn:focus {
-top: 1em;
-transform: translate(0, .25em);
+  top: 1em;
+  transform: translate(0, .25em);
 }
