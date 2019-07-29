@@ -33,8 +33,7 @@ span {
   transition: all 250ms ease;
 }
 
-.icon:hover
-.icon:active {
+.icon:hover, .icon:active {
   transform: translate(0, -.25em);
 }
 
