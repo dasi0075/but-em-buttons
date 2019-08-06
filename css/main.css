@@ -28,6 +28,11 @@ span {
   border-color: #b4fff4;
 }
 
+.btn-ghost:hover .i-32 {
+transform: translateY(-.25em);
+}
+
+
 .icon,
 .btn {
   transition: all 250ms ease;
