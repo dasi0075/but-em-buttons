@@ -29,9 +29,8 @@ span {
 }
 
 .btn-ghost:hover .i-32 {
-transform: translateY(-.25em);
+  transform: translateY(-.25em);
 }
-
 
 .icon,
 .btn {
