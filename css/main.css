@@ -44,6 +44,7 @@ transform: translateY(-.25em);
 
 .btn-ghost {
   transition: all 250ms ease;
+  border-bottom: 3px solid #b4fff4;
 }
 
 .btn:focus {
